@@ -6,5 +6,5 @@ The Depository Trust and Clearing Corporation has a long-standing history in the
 
 Accordingly, Block Transfer built TAD3, a replacement system as the [first non-DTCC Direct Registration System](https://www.sec.gov/comments/s7-15-23/s71523-301019-767522.pdf).
 
-## What is Direct Registration or a DRS?
+## What is Direct Registration/DRS?
 As highlighted by [WhyDRS.org](https://www.whydrs.org/), introduced a significant shift towards decentralization and direct registration of securities, emphasizing the importance of transparency and investor control.
