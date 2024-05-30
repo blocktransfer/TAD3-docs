@@ -1,7 +1,5 @@
 # TAD3
 
-Welcome to the official documentation for TAD3. This guide will help you understand the various aspects of the project, including its governance, market strategies, and transfer protocols.
-
 TAD3 is designed to revolutionize the way we approach capital markets. Whether you are a developer, a stakeholder, or a new user, this documentation aims to provide all the necessary information to get you started and help you understand the core components of the project.
 
 - **Governance**: Learn about the project's governance structure and how decisions are made.
