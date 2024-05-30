@@ -8,6 +8,11 @@ build:
 python:
   install:
     - requirements: docs/requirements.txt
+    - method: pip
+      path: .
+    - requirements: 
+      - recommonmark
+      - myst-parser
 
 sphinx:
   configuration: docs/source/conf.py
