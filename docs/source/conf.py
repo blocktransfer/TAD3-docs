@@ -4,8 +4,7 @@ from recommonmark.transform import AutoStructify
 
 sys.path.insert(0, os.path.abspath('.'))
 
-project = 'TAD3'
-copyright = '2024'
+project = 'Web3 Transfer Agent Depository'
 author = 'BlockTrans Syndicate'
 
 release = '0.1'
