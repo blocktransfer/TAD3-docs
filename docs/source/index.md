@@ -1,6 +1,6 @@
 # TAD3
 
-TAD3 is designed to revolutionize the way we approach capital markets. Whether you are a developer, a stakeholder, or a new user, this documentation aims to provide all the necessary information to get you started and help you understand the core components of the project.
+TAD3 is designed to revolutionize the way we approach capital markets. Whether you are a developer, a stakeholder, or a new user, this documentation aims to provide all the necessary information to get you started and help you understand its core components.
 
 - **Governance**: Learn about the project's governance structure and how decisions are made.
 - **Markets**: Explore market strategies and understand how the project positions itself in the market.
