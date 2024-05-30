@@ -43,7 +43,7 @@ epub_show_urls = 'footnote'
 master_doc = 'index'
 html_static_path = ['_static']
 html_favicon = '_static/favicon.ico'
-exclude_patterns = ['index.md']
+
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'collapse_navigation': False,
