@@ -10,9 +10,8 @@ python:
     - requirements: docs/requirements.txt
     - method: pip
       path: .
-    - requirements: 
-      - recommonmark
-      - myst-parser
+    - method: pip
+      args: [recommonmark, myst-parser]
 
 sphinx:
   configuration: docs/source/conf.py
