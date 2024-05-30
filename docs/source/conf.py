@@ -1,15 +1,11 @@
-# Configuration file for the Sphinx documentation builder.
-
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'TAD3'
+copyright = '2024'
+author = 'BlockTrans Syndicate'
 
 release = '0.1'
 version = '0.1.0'
-
-# -- General configuration
 
 extensions = [
     'recommonmark',
@@ -40,9 +36,8 @@ html_theme = 'sphinx_rtd_theme'
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-# TODO: Add support for PDF outputs, alphebatize: 
-
 html_static_path = ['_static']
+html_favicon = '_static/favicon.ico'
 
 def setup(app):
     app.add_css_file('custom.css')
