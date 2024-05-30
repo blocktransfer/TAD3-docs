@@ -11,7 +11,6 @@ Feel free to navigate through the sections using the sidebar or the links provid
 We hope this documentation provides you with all the information you need. If you have any questions or need further assistance, please refer reach out to our [developer support](mailto:support@blocktransfer.dev).
 
 ```{toctree}
-
 :maxdepth: 1
 :caption: Contents:
 
@@ -19,4 +18,5 @@ intro
 transfers
 governance
 markets
+oversight
 ```
