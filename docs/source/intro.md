@@ -1,4 +1,4 @@
-# Welcome to TAD3
+# Welcome to TAD3 ([inagural repo](https://github.com/blocktransfer/py-tad3-horizon))
 
 ## TAD3 is not DTCC
 
@@ -20,7 +20,7 @@ The conventional proxy voting system is **[fraught with inefficiencies and misre
 ### Legacy Trading Systems
 The incumbent American stock market system invokes an average of 11 Wall Street middlemen per trade.[^middlemen_many] The concept of **[direct investor-to-investor trading](https://www.blocktransfer.com/blog/post/investor-to-investor-direct-trading)** represents a significant shift towards more democratic and efficient markets. It is our view that [the SDEX](https://developers.stellar.org/docs/learn/encyclopedia/liquidity-on-stellar-sdex-liquidity-pools) represents a step-function improvement in global markets, empowering investors to connect with companies without any middlemen intervention whatsoever.
 
-[^about_DTCC]: Learn more about the origins of DTCC and our markets [here](https://origins.jfwooten4.com).
+[^about_DTCC]: Learn more about the [origins of DTCC and our markets](https://origins.jfwooten4.com).
 [^middlemen_req]: _Id. See also_ this [condensed explainer](https://youtu.be/YUwqzeaR1lA) of early stock transfers.
 [^middlemen_many]: _See_ [this video](https://explainer.jfwooten4.com), _supra [^about_DTCC]_, and appendix B of our [Yellowpaper](https://blocktransfer.com/.well-known/yellowpaper.pdf).
 
