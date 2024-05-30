@@ -39,11 +39,12 @@ epub_show_urls = 'footnote'
 html_static_path = ['_static']
 html_favicon = '_static/favicon.ico'
 
-def setup(app):
-    app.add_css_file('custom.css')
-
-html_context = {
-    'css_files': [
-        'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap',
-    ],
-}
+# CSS not working RN
+# def setup(app):
+#     app.add_css_file('custom.css')
+#
+# html_context = {
+#     'css_files': [
+#         'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap',
+#     ],
+# }
