@@ -40,6 +40,20 @@ master_doc = 'index'
 html_static_path = ['_static']
 html_favicon = '_static/favicon.ico'
 
+html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'collapse_navigation': False,
+    'display_version': True,
+    'navigation_depth': 4,
+}
+
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        'url_resolver': lambda url: github_doc_root + url,
+        'auto_toc_tree_section': 'Contents',
+    }, True)
+    app.add_transform(AutoStructify)
+    
 # CSS not working RN
 # def setup(app):
 #     app.add_css_file('custom.css')
