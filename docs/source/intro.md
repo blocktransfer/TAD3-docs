@@ -1,9 +1,3 @@
-# Table of Contents
-- [About TAD3](index.md)
-- [Transfer Compliantly](transfers.md)
-- [Effective Governance](governance.md)
-- [Global Market Reform](markets.md)
-
 # Welcome to TAD3
 
 ## TAD3 is not DTCC
