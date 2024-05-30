@@ -8,7 +8,7 @@ TAD3 is designed to revolutionize the way we approach capital markets. Whether y
 
 Feel free to navigate through the sections using the sidebar or the links provided above.
 
-We hope this documentation provides you with all the information you need. If you have any questions or need further assistance, please refer reach out to our [developer support](mailto:support@blocktransfer.dev).
+We hope this documentation provides you with all the information you need. If you have any questions or need further assistance, please reach out to our [developer support](mailto:support@blocktransfer.dev).
 
 ```{toctree}
 :maxdepth: 1
