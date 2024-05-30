@@ -1,4 +1,8 @@
-# -- Project information
+import os
+import sys
+from recommonmark.transform import AutoStructify
+
+sys.path.insert(0, os.path.abspath('.'))
 
 project = 'TAD3'
 copyright = '2024'
@@ -9,6 +13,7 @@ version = '0.1.0'
 
 extensions = [
     'recommonmark',
+    'myst_parser',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
@@ -45,6 +50,10 @@ html_theme_options = {
     'collapse_navigation': False,
     'display_version': True,
     'navigation_depth': 4,
+    'style_nav_header_background': '#AC51FF',
+    'head_font_family': 'Montserrat, sans-serif',
+    'link': '#AC51FF',
+    'link_hover': '#682D8B',
 }
 
 def setup(app):
