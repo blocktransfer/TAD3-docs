@@ -1,4 +1,4 @@
-#TAD3
+# TAD3
 
 Welcome to the official documentation for TAD3. This guide will help you understand the various aspects of the project, including its governance, market strategies, and transfer protocols.
 
