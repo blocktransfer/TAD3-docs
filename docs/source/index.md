@@ -8,3 +8,14 @@ Accordingly, Block Transfer built TAD3, a replacement system as the [first non-D
 
 ## What is Direct Registration/DRS?
 As highlighted by [WhyDRS.org](https://www.whydrs.org/), introduced a significant shift towards decentralization and direct registration of securities, emphasizing the importance of transparency and investor control.
+
+## What are DTCC's DRS Problems?
+
+### Legacy Stock Transfers
+Traditional stock transfers often involve cumbersome processes, such as the Medallion Signature Guarantee program, which can be a barrier to seamless transactions. To understand the intricacies and limitations of these legacy systems, refer to the article on Medallion Signature Guarantee Stamps.
+
+### Legacy Shareholder Voting
+The conventional proxy voting system is fraught with inefficiencies and potential for misrepresentation. For an in-depth analysis of these issues, see the discussion on Proxy Voting Flaws.
+
+### Legacy Trading Systems
+Traditional trading systems often fail to meet the needs of modern investors. The concept of investor-to-investor direct trading represents a significant shift towards more democratic and efficient markets. Explore this topic further in the post on Investor-to-Investor Direct Trading.
