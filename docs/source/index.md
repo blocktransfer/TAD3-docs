@@ -12,9 +12,9 @@ We hope this documentation provides you with all the information you need. If yo
 
 ```{toctree}
 
-:maxdepth: 2
+:maxdepth: 1
 :caption: Contents:
-index
+
 intro
 transfers
 governance
