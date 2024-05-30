@@ -1,10 +1,10 @@
-# Welcome to TAD3 ([inagural repo](https://github.com/blocktransfer/py-tad3-horizon))
+# Welcome to TAD3
 
 ## TAD3 is not DTCC
 
 The Depository Trust and Clearing Corporation[^about_DTCC] has a long-standing history in the financial markets, providing centralized clearing and settlement for the U.S. securities market. Historically, DTCC has facilitated the efficient transfer of securities, but this centralized model has also led to inefficiencies and control by a few powerful institutions. In the late 90's, it is our understanding that DTCC management&mdash;upon increased control from brokers rather than banks&mdash;started focusing [more on profits than accuracy](https://www.linkedin.com/pulse/gamestop-first-successful-short-squeeze-john-wooten-xvyne/).
 
-Accordingly, Block Transfer [built TAD3](https://www.blocktransfer.com/blog/post/investor-to-investor-direct-trading), a replacement system as the [first non-DTCC Direct Registration System](https://www.sec.gov/comments/s7-15-23/s71523-301019-767522.pdf).
+Accordingly, Block Transfer [built TAD3](https://www.blocktransfer.com/blog/post/investor-to-investor-direct-trading), a replacement system as the [first non-DTCC Direct Registration System](https://www.sec.gov/comments/s7-15-23/s71523-301019-767522.pdf). You can view and join our [inagural repo](https://github.com/blocktransfer/py-tad3-horizon) on GitHub.
 
 ## What is Direct Registration/DRS?
 We recommend exploring the predominant source of DRS information at **[WhyDRS.org](https://www.whydrs.org/)**. DRS is sort of like holding the keys to your own crypto, except with traditional stocks and bonds. Instead of sitting in "street name," the assets are held in **your name**. DRS is a significant shift towards the beneficial decentralization of securities, transparently connecting investors like us with companies that issue stock.
