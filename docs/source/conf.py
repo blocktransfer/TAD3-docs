@@ -39,3 +39,16 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# TODO: Add support for PDF outputs, alphebatize: 
+
+html_static_path = ['_static']
+
+def setup(app):
+    app.add_css_file('custom.css')
+
+html_context = {
+    'css_files': [
+        'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap',
+    ],
+}
