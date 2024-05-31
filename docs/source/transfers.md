@@ -11,7 +11,7 @@ A clawbackable trustline allows the issuer to reclaim assets from the holder und
 
 Revocable trustlines grant the issuer the authority to revoke the trustline, thereby preventing the holder from transferring the asset. This control mechanism is essential for managing compliance, particularly in situations where the holder violates terms of service or regulatory requirements. By revoking trustlines, issuers can effectively freeze assets and prevent further transactions.
 
-### Trustline Functions
+### Specific Usage
 
 Trustlines play a critical role in controlling asset ownership and ensuring compliance. They allow agents to:
 
@@ -55,7 +55,8 @@ Issuers like Block Transfer can manage trustlines to enforce compliance. This in
 You can see this in practice in our function to [freeze or halt a stock](https://github.com/blocktransfer/py-tad3-horizon/blob/main/investors/freezeBulkAssetTrustlines.py).
 
 
-#### Clawback Operations: If the need arises to reclaim assets, issuers can perform clawback operations to recover specific amounts from the holder’s account. This ensures that assets can be controlled even after issuance.
+#### Clawback Operations
+If the need arises to reclaim assets, issuers can perform clawback operations to recover specific amounts from the holder’s account. This ensures that assets can be controlled even after issuance.
 
    ```python
    def clawbackAsset(account_id, asset_code, issuer_key, amount):
