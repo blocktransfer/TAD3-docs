@@ -253,7 +253,7 @@ On the Stellar network, managing insider activities involves freezing insiders' 
    - Once an insider activity is identified, the relevant balances are frozen by deauthorizing the trust line associated with the insider's account.
    - This ensures that insiders cannot trade or transfer assets until the issue is resolved.
 
-### Implementi## Insider Trading and Market Manipulation
+## Insider Trading and Market Manipulation
 
 Insider trading and other forms of market manipulation are significant concerns in maintaining the integrity of financial markets. Establishing clear restrictions and monitoring insider activities are essential steps to ensure a fair and transparent market environment. This section provides guidelines and best practices for managing insider activities across various jurisdictions, focusing on how the Stellar network's infrastructure can be utilized to enforce these regulations.
 
