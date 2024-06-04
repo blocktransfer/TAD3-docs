@@ -6,7 +6,7 @@ TAD3 is designed to revolutionize the way we approach capital markets. Whether y
 - **Governance**: Learn about the Syndicate's governance structure and how issuer proxy votes get made.
 - **Transfers**: Get detailed information on underlying Stellar functions and how we manage data on-chain.
 
-![TAD3 Ecosystem](imgs/network-stack)
+![TAD3 Ecosystem](imgs/network-stack.png)
 
 We hope this documentation provides you with all the information you need. If you have any questions or need further assistance, please reach out to our [developer support](mailto:support@blocktransfer.dev).
 
