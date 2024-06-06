@@ -318,4 +318,4 @@ On the Stellar network, managing insider activities involves freezing insiders' 
    - Repo to be made public by July 20.
 
 
-[^policy_req]: _See_ a litany of securities laws, many of which we're actively clarifying per [OCC comment n.129](https://lemmy.whynotdrs.org/post/1166651).
+[^policy_req]: _See_ a litany of securities laws, many of which we're actively clarifying per [note 129 in re SR-OCC-2024-001]([https://lemmy.whynotdrs.org/post/1166651](https://www.sec.gov/comments/sr-occ-2024-001/srocc2024001-474471-1355754.pdf)).
