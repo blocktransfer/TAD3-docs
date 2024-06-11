@@ -7,7 +7,6 @@ It is our present understanding that TAD3 invokes material efficiencies of scale
 Alternatively, join the [discussion](https://linktr.ee/takingstockpodcast) as to our ongoing developments and make your voice [directly heard](https://discord.com/channels/1102309240145707049/1138950855782047775) by our top prudent regulators.
 
 ```{toctree}
-:maxdepth: 2
 :caption: Contents:
 
 regs/lifecycle
