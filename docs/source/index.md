@@ -21,4 +21,8 @@ transfers
 governance
 markets
 oversight
+regs/lifecycle
+regs/us/intro
+regs/us/144
+regs/us/144a
 ```
