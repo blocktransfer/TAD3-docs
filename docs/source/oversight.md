@@ -9,6 +9,6 @@ Alternatively, join the [discussion](https://linktr.ee/takingstockpodcast) as to
 ```{toctree}
 :caption: Contents:
 
-regs/lifecycle
-regs/us/intro
+regs/learn/index
+regs/us/index
 ```
