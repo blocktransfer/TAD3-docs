@@ -21,7 +21,7 @@ We hope this documentation provides you with all the information you need. If yo
 intro
 ```
 
-<!-- Introduce Stellar primatives with docs ref.s -->
+<!-- Introduce Stellar primatives with docs refs. -->
 ```{toctree}
 :caption: Compliant Transfers:
 :hidden:

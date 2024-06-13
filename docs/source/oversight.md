@@ -8,6 +8,7 @@ Additionally, join the [discussion](https://linktr.ee/takingstockpodcast) as to 
 
 ```{toctree}
 :caption: Contents:
+:hidden:
 
 regs/learn/index
 regs/us/index
