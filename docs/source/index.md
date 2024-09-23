@@ -1,4 +1,4 @@
-# TAD3
+# TAD3 &mdash; The Blockchain DRS
 
 TAD3 is designed to revolutionize the way we approach capital markets. Whether you are a developer, a stakeholder, or a new user, this documentation aims to provide all the necessary information to get you started and help you understand its core components.
 
