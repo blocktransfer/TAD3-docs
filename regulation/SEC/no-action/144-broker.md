@@ -1,4 +1,4 @@
-`extends TAR1`
+`extends TAR1`  and  hasss precedent at https://www.sec.gov/comments/s7-24-20/s72420.htm
 
 thinkign this could be a decent place to migrate the existing work here into
 
