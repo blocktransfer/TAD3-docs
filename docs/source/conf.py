@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.abspath('.'))
 
 # Project information
 project = 'Web3 Transfer Agent Depository'
-copyright = '2024, BlockTrans Syndicate'
+copyright = '2025, BlockTrans Syndicate'
 author = 'Block Transfer'
 
 # Release and version
