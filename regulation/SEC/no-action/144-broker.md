@@ -1,3 +1,7 @@
+alternative approach is setting up 144e by doing validator work at TA1 PHYSICAL ADDRESS and then extrapolating as team grows akin to LRF machine dell IPFS
+
+---
+
 `extends TAR1`  and  hasss precedent at https://www.sec.gov/comments/s7-24-20/s72420.htm
 
 thinkign this could be a decent place to migrate the existing work here into
