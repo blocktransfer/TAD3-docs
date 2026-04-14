@@ -1,5 +1,3 @@
-![TAD3.dev](welcome.png)
-
 # TAD3 Developer Documentation
 
 See BlockTransfer's public FOSS repos at:
