@@ -38,7 +38,7 @@ You can see an example implementation in our [bulk approval contexts](https://gi
 
 
 #### Managing Trustlines
-Issuers like Block Transfer can manage trustlines to enforce compliance. This includes setting limits, enabling or disabling clawback and revocation features, and monitoring trustline activities.
+Issuers like BlockTransfer can manage trustlines to enforce compliance. This includes setting limits, enabling or disabling clawback and revocation features, and monitoring trustline activities.
 
    ```python
    def manageTrustline(account_id, asset_code, issuer_key, action):
@@ -78,7 +78,7 @@ Effective management of secondary trading is crucial for maintaining compliance 
 
 ### Identity Verification via Persona
 
-Given the current lack of robust decentralized identity verification platforms and [extensive consideration](https://report.jfwooten4.com/), Block Transfer utilizes Persona to verify identities and internally link them to public keys. This ensures that all trading parties are accurately identified and compliant with regulatory standards.
+Given the current lack of robust decentralized identity verification platforms and [extensive consideration](https://report.jfwooten4.com/), BlockTransfer utilizes Persona to verify identities and internally link them to public keys. This ensures that all trading parties are accurately identified and compliant with regulatory standards.
 
 #### Verification Process
 Persona is used to verify the identities of all participants. This involves collecting and validating identification documents, performing background checks, and ensuring that each participant meets the necessary regulatory requirements.

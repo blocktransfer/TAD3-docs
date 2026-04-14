@@ -4,7 +4,7 @@ These handlers are deployed under the public API surface. They either expose mar
 
 ## `external/federation`
 - **Route**: `GET /federation?q={value}&type={NAME|PLUS|ID}`
-- **Purpose**: Resolve Block Transfer federation addresses into Stellar public keys (and optionally residency metadata).
+- **Purpose**: Resolve BlockTransfer federation addresses into Stellar public keys (and optionally residency metadata).
 - **Auth**: None. Response varies by `type`:
   - `NAME`: Requires `{investorAccount}*BLOCKTRANSFER.COM`; returns `stellar_address` and resolved `account_id`.
   - `PLUS`: Accepts an internal account string; returns `PK` and the account's home country.

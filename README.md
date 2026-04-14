@@ -2,5 +2,5 @@
 
 # TAD3 Developer Documentation
 
-See Block Transfer's public FOSS repos at:
+See BlockTransfer's public FOSS repos at:
 - [Python Horizon interface](https://github.com/blocktransfer/py-tad3-horizon)
