@@ -1,16 +1,11 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-
-# Sphinx
+# Docusaurus
+node_modules/
+build/
+.docusaurus/
 docs/_build/
 
-# Local tooling
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
+# Local environments
+.venv/
 
 # Editors and operating systems
 .vscode/

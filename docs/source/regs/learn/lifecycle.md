@@ -2,9 +2,6 @@
 
 Understanding the lifecycle of a stock is essential for grasping the complex infrastructure of the stock market. From its initial issuance to various corporate actions, each stage plays a critical role in the overall ecosystem. This guide will explore the primary issuance of stocks, secondary trading activities, and the various corporate actions that can affect a stock's journey.
 
-![lifecycle-broad](imgs/lifecycle.png)
-
-
 ## Primary Issuance
 (from img, extra info here)
 

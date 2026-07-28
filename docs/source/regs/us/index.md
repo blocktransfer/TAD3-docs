@@ -39,19 +39,3 @@ https://www.pillsburylaw.com/images/content/1/0/v2/104489/OffersSalesandResaleso
 
 ON 144A
 https://asperchair.bryan-schwartz.com/wp-content/uploads/articles/SEC-Rule-144A-and-the-Global-Market.pdf
-
-
-
-
-
-
-
-
-```{toctree}
-:caption: Concepts:
-:hidden:
-
-144
-sec-4a
-144a
-```

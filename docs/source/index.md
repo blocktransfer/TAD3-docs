@@ -1,4 +1,10 @@
-# TAD3 &mdash; The Blockchain DRS
+---
+slug: /
+sidebar_label: Overview
+sidebar_position: 1
+---
+
+# TAD3 — The Blockchain DRS
 
 TAD3 is designed to revolutionize the way we approach capital markets. Whether you are a developer, a stakeholder, or a new user, this documentation aims to provide all the necessary information to get you started and help you understand its core components.
 
@@ -12,54 +18,3 @@ You can build the next generation of web3 Wall Street on TAD3 through projects l
 ![TAD3 Ecosystem](imgs/network-stack.png)
 
 We hope this documentation provides you with all the information you need. If you have any questions or need further assistance, please reach out to our [developer support](mailto:support@blocktransfer.dev).
-
-```{toctree}
-:caption: Introduction
-:titlesonly:
-:maxdepth: 1
-
-intro
-```
-
-```{toctree}
-:caption: Compliant Transfers
-:titlesonly:
-:maxdepth: 1
-
-transfers
-```
-
-```{toctree}
-:caption: Corporate Governance
-:titlesonly:
-:maxdepth: 1
-
-governance
-```
-
-```{toctree}
-:caption: Market Reform
-:titlesonly:
-:maxdepth: 1
-
-markets
-```
-
-```{toctree}
-:caption: Public Oversight
-:titlesonly:
-:maxdepth: 1
-
-oversight
-```
-
-```{toctree}
-:caption: Syndicate API
-:titlesonly:
-:maxdepth: 1
-
-api/overview
-api/external-endpoints
-api/issuerlink
-api/operations
-```
