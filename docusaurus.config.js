@@ -8,7 +8,8 @@ const config = {
   },
 
   url: "https://tad3.dev",
-  baseUrl: "/",
+  baseUrl: process.env.DOCS_BASE_URL || "/",
+  trailingSlash: true,
 
   organizationName: "blocktransfer",
   projectName: "TAD3-docs",

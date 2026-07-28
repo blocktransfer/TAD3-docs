@@ -1,0 +1,75 @@
+name: Deploy versioned documentation
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "docs-v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: versioned-docs-deployment
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out documentation source
+        uses: actions/checkout@v6
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Select deployment URL
+        id: version
+        shell: bash
+        run: |
+          if [[ "$GITHUB_REF_TYPE" == "tag" ]]; then
+            version="${GITHUB_REF_NAME#docs-v}"
+            if [[ -z "$version" || ! "$version" =~ ^[0-9A-Za-z._-]+$ ]]; then
+              echo "Invalid documentation version: $version" >&2
+              exit 1
+            fi
+            echo "base_url=/$version/" >> "$GITHUB_OUTPUT"
+            echo "destination=$version" >> "$GITHUB_OUTPUT"
+          else
+            echo "base_url=/" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build documentation
+        env:
+          DOCS_BASE_URL: ${{ steps.version.outputs.base_url }}
+        run: npm run build
+
+      - name: Publish current documentation
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          keep_files: true
+          cname: tad3.dev
+
+      - name: Publish immutable tagged documentation
+        if: github.ref_type == 'tag'
+        uses: peaceiris/actions-gh-pages@84c30a85c19949d7eee79c4ff27748b70285e453 # v4.1.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
+          publish_branch: gh-pages
+          destination_dir: ${{ steps.version.outputs.destination }}
+          keep_files: true
+          cname: tad3.dev
